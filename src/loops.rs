@@ -1,3 +1,5 @@
+
+// Returning values from loops
 fn loops() {
     let mut counter = 0;
 
