@@ -7,6 +7,7 @@ fn loops() {
         if counter == 10 {
             break counter * 2;
         }
+        // the loop will break when the counter hits number 20.
     };
     println!("The result is {}", result);
 }
