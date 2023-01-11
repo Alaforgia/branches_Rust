@@ -1,18 +1,43 @@
 
+// Loop w/ for
+fn main() {
 
+for number in (1..4).rev()  {
+    println!("{}!", number);
+
+}
+println!("LIFTOFF");
+
+
+//     let a = [10, 20, 30, 40, 50];
+   
+   
+//    for element in a.iter()  {
+//        println!("the value is: {}", element);
+//    }
+   
+   
+    // let mut index = 0;
+
+    // while index < 5 {
+    //     println!("the value is: {}", a[index]);
+
+    //     index = index + 1;
+    // }
+}
 
 
 // Conditional loops w/ while
-fn main() {
-    let mut number = 3;
+// fn main() {
+//     let mut number = 3;
 
-    while number != 0 {
-        println!("{}!", number);
+//     while number != 0 {
+//         println!("{}!", number);
 
-        number = number - 1;
-    }
-    println!("LIFTOFF!!!");
-}
+//         number = number - 1;
+//     }
+//     println!("LIFTOFF!!!");
+// }
 
 // Returning values from loops
 // fn loops() {
